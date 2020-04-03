@@ -1,3 +1,5 @@
+# ***Lets look at these 15 steps through code of Twin Delays Deep Deterministic Algorithms:***
+
 ## STEP 1 : We initialize the Experience Replay Memory with a size of 1e6. Then we populate it with new transitions with all tuples as input (s', a, r, s) as tensor.
 ![alt text](https://github.com/Aspire-Mayank/EVA/blob/master/Phase2/Session9/step1.PNG?raw=true)
 
