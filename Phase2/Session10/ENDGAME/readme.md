@@ -1,5 +1,5 @@
 #  SelfDrivingCarEnv
-Simple auto driving car using T3D Reinforcement learning
+> ***Simple auto driving car using T3D Reinforcement learning***
 
 ## Steps to Run
 * Because of unavailability of GPU on desktop, Trained it on Google Colab. But running Kivy on colab is very complex, hence once training is done on Colab, model is downloaded to pytorch_models directory and then it is run on my local desktop.
@@ -9,7 +9,7 @@ Simple auto driving car using T3D Reinforcement learning
 ## Implementation Approch 
 * Because we can't run Kivy on Colab and because we don't have GPUs on our desktop, following is the strategy to train
   * Load the sand image and move the coordinates (Vector) in env.Step() for simulating car movement.
-  * State is captured by cropping a portion of sand image from car's position. And then rotating it in the direction of the car in such a way that car's orientation is horizontal i.e 0 degrees from x-axis. This state is passed to Actor network
+  * State is captured by cropping a portion of sand image from car's position. And then rotating it in the direction of the car in such     a way that car's orientation is horizontal i.e 0 degrees from x-axis. This state is passed to Actor network
   * Action is 1 dimensional, with its value being amount of angle the car should rotate
 
 ## Network Architecture
