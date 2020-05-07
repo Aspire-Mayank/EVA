@@ -1,5 +1,5 @@
 #  SelfDrivingCarEnv
-> ***Simple auto driving car using T3D Reinforcement learning***
+***Simple Self-Driving car using T3D Reinforcement learning***
 
 ## Steps to Run
 * Because of unavailability of GPU on desktop, Trained it on Google Colab. But running Kivy on colab is very complex, hence once training is done on Colab, model is downloaded to pytorch_models directory and then it is run on my local desktop.
